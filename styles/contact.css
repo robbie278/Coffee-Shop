@@ -1,0 +1,67 @@
+.contact{
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    display: flex;
+}
+
+.contact-left{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url(/images/image1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.contact-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-right h1{
+    font-size: 3.2rem;
+    font-weight: 300;
+    color: #fff;
+    margin: 2rem 0 3rem 2rem;
+}
+
+.input-group{
+    display: flex;
+}
+
+.input-group input,textarea{
+    width: 20rem;
+    height: 5rem;
+    padding: 1rem 1rem 2rem 0;
+    margin: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: .2rem solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.input-group textarea{
+    resize: none;
+    height: 5rem;
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.input-group textarea::placeholder,
+.input-group input::placeholder{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.contact-btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #c49b63;
+    color: #2a2727;
+    margin: 1rem 2rem;
+    border: none;
+}

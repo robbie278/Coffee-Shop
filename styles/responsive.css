@@ -281,7 +281,7 @@ footer{
     }
 
     .customers{
-        height: 80vh;
+        height: 100vh;
     }
 
     .menu{
@@ -293,8 +293,23 @@ footer{
     }
 
     .about{
-        height: 70vh;
+        height: 90vh;
+
+        
     }
+
+    .client{
+        width: 100%;
+        height: 16rem;
+    } 
+
+    .client:nth-child(2){
+        height: 16rem;
+    }
+    
+    .client:nth-child(4){
+        height: 16rem;
+    } 
 
 }
 
